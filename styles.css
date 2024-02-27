@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+body{
+    background-image: url("/fondo/fondo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(240, 154, 43);
+}
+
+
+header{
+    display: flex;
+ justify-content: space-between;
+ min-height: 70px;
+ background-color: rgb(0, 0, 0);
+ align-items: center;
+ padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(187, 1, 1);
+}
+
+@media (max-width:700px){
+ header{
+    flex-direction: column;
+ }
+  nav{
+    padding: 10px 0px;
+  }
+}
